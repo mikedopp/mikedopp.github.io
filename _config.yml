@@ -1,45 +1,53 @@
-title: mikedopp Githumble
-author: mikedopp
-email: mikedopp@mikedopp.com
-description: #man
-# social links
-twitter_username: mikedopp
-github_username:  mikedopp
-rss: rss
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jekyll
-# linkedin_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: jekyll
-# googleplus_username: +jekyll
+#------------------------------------------------------------------------------
+# General
+#------------------------------------------------------------------------------
+name: "Mike_Dopp"
+description: "Fancy Pants"
+language: "en"
 
-# Mastodon instances
-# mastodon:
-# - username: jekyll
-#   instance: example.com
-# - username: jekyll2
-#   instance: example.com
+url: https://mikedopp.github.io
+baseurl: ''
 
+#------------------------------------------------------------------------------
+# Markdown processor and code highlighting
+#------------------------------------------------------------------------------
+markdown: kramdown
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+highlighter: rouge
 
-show_excerpts: false # set to true to show excerpts on the homepage
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
-# Minima date format
-# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
-minima:
-  date_format: "%b %-d, %Y"
+#------------------------------------------------------------------------------
+# Pagination and friendly URLs
+#------------------------------------------------------------------------------
+paginate: 5
+#paginate_path: /page-:num
+permalink: /:categories/:year/:month/:day/:title/
 
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
+#------------------------------------------------------------------------------
+# Social sharing, comments and RSS.
+#------------------------------------------------------------------------------
+#disqus-id: yourusername
 
-# Build settings
-theme: jekyll-theme-primer
+enable-share: true
+twitter: mikedopp
+github: mikedopp
+google: +mikedopp
+facebook: mikedopp
+linkedin: m1k3d0pp
 
-plugins:
- - jekyll-feed
- - jekyll-seo-tag
- - jekyll-mentions
- - jekyll-sitemap
+rss-feed-limit: 10
+rss-show-full: false
+
+#------------------------------------------------------------------------------
+# Configuration, plugins, gems, etc..
+#------------------------------------------------------------------------------
+source: .
+destination: ./_site
+gems: ['jekyll-paginate']
+
+sass:
+    style: :compressed
+    sass_dir: assets/css/
