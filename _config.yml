@@ -42,8 +42,4 @@ plugins:
  - jekyll-feed
  - jekyll-seo-tag
  - jekyll-mentions
- - jemoji
  - jekyll-sitemap
- 
-qfm_quirks: paragraph_end
- 
