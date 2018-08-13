@@ -25,20 +25,20 @@ kramdown:
 paginate: 5
 #paginate_path: /page-:num
 permalink: /:categories/:year/:month/:day/:title/
-
+github_repo_url: https://github.com/mikedopp/mikedopp.github.io/
 #------------------------------------------------------------------------------
 # Social sharing, comments and RSS.
 #------------------------------------------------------------------------------
 disqus-id: mike_dopp
 enable-share: true
 twitter: mikedopp
-github: mikedopp
+#github: mikedopp
 google: +mikedopp
 facebook: mikedopp
 
 
-rss-feed-limit: 10
-rss-show-full: false
+rss-feed-limit: 5
+rss-show-full: "no"
 
 #------------------------------------------------------------------------------
 # Configuration, plugins, gems, etc..
