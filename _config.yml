@@ -1,7 +1,7 @@
 #------------------------------------------------------------------------------
 # General
 #------------------------------------------------------------------------------
-name: "Mike_Dopp"
+name: "MikeDopp"
 description: "Fancy Pants"
 language: "en"
 
@@ -29,14 +29,13 @@ permalink: /:categories/:year/:month/:day/:title/
 #------------------------------------------------------------------------------
 # Social sharing, comments and RSS.
 #------------------------------------------------------------------------------
-#disqus-id: yourusername
-
+disqus-id: mike_dopp
 enable-share: true
 twitter: mikedopp
 github: mikedopp
 google: +mikedopp
 facebook: mikedopp
-linkedin: m1k3d0pp
+
 
 rss-feed-limit: 10
 rss-show-full: false
