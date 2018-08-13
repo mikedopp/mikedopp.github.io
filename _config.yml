@@ -32,7 +32,7 @@ permalink: /:categories/:year/:month/:day/:title/
 disqus-id: mike_dopp
 enable-share: true
 twitter: mikedopp
-##github: mikedopp
+#github: mikedopp
 google: +mikedopp
 facebook: mikedopp
 
