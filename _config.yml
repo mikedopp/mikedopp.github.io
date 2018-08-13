@@ -44,5 +44,9 @@ theme: jekyll-theme-primer
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
- qfm_quirks: paragraph_end
+ - jekyll-mentions
+ - jemoji
+ - jekyll-sitemap
+ 
+qfm_quirks: paragraph_end
  
