@@ -47,7 +47,7 @@ source: .
 destination: ./_site
 gems: ['jekyll-paginate']
 
-sass:
-    style: :compressed
-    sass_dir: assets/css/
-theme: jekyll-theme-hacker
+#sass:
+ #   style: :compressed
+ #   sass_dir: assets/css/
+#theme: jekyll-theme-hacker
