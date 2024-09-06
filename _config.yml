@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: mikedopp wandering
+title: this is where mike gits hub
 
 # Your name to show in the footer
 author: mikedopp
@@ -104,7 +104,7 @@ share-links-active:
 url-pretty: "mikedopp.com"
 
 # Add the website title to the title of every page
-title-on-all-pages: true
+title-on-all-pages: false
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
