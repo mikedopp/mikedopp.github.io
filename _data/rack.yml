@@ -1,0 +1,99 @@
+# Mounted units on the home page rack, top to bottom.
+# state: released (green LED, solid tape) or prerelease (amber LED, outlined tape).
+# Only public repositories belong here.
+
+units:
+  - id: multi-install-iso
+    name: Multi_Install_ISO
+    finish: graphite
+    state: prerelease
+    version: "0.9.0"
+    status: Prerelease · offline-proven · no VM built yet
+    pitch: >-
+      Builds vSphere and Hyper-V servers straight from install ISOs. No templates,
+      no golden images, no "who touched the base image" meetings.
+    shots:
+      - src: /assets/img/work/mii-plan.webp
+        w: 1386
+        h: 894
+        alt: "Multi Install ISO's Plan page: four Windows Server VMs validated with zero blocking issues and the plan's SHA-256 hash."
+        caption: The plan. Four servers, zero blocking issues, one SHA-256 that every later step has to quote.
+      - src: /assets/img/work/mii-overview.webp
+        w: 1386
+        h: 894
+        alt: "Multi Install ISO's Overview page listing what is planned, what is built, and what has not been proven yet."
+        caption: The overview, including an honest list of what hasn't been proven yet.
+    specs:
+      - Reads a YAML, JSON or CSV definition and writes a read-only plan with a SHA-256.
+      - Builds one answer-media ISO per VM (autounattend.xml or ks.cfg), reads it back byte for byte and hashes it.
+      - Applies one VM at a time, only after you quote the plan hash and name the target. A receipt after every step.
+      - PowerShell engine, .NET 10 desktop app, vSphere and Hyper-V targets.
+    note: >-
+      The apply paths haven't built a real VM yet, and the README says so up front.
+      Optimism is not evidence.
+    links:
+      - label: Source
+        url: https://github.com/mikedopp/Multi_Install_ISO
+      - label: Release 0.9.0
+        url: https://github.com/mikedopp/Multi_Install_ISO/releases/tag/v0.9.0
+      - label: What's proven
+        url: https://github.com/mikedopp/Multi_Install_ISO/blob/master/docs/EVALUATION.md
+
+  - id: boardscout
+    name: BoardScout
+    finish: silver
+    state: released
+    version: "1.9.0"
+    status: Released · October 2026 · MIT
+    pitch: >-
+      Maps a PC's motherboard, bandwidth, drivers, storage and OS in one portable
+      Windows app. It never installs drivers, which is more restraint than most driver tools show.
+    shots:
+      - src: /assets/img/work/bs-overview.webp
+        w: 1440
+        h: 780
+        alt: "BoardScout's interactive board map of an ASRock B550M motherboard showing CPU, memory, PCIe slots, M.2 drives and SATA ports."
+        caption: The board map. Hover any part for live status and what it's good for.
+      - src: /assets/img/work/bs-connections.webp
+        w: 1440
+        h: 780
+        alt: "BoardScout's Connections view: every USB, SATA and network device, the link speed it negotiated, and warnings for links running below spec."
+        caption: Connections, with the links that are running below what the device supports flagged.
+    specs:
+      - Flags links running slow, like a PCIe 4.0 SSD on 3.0 lanes or a USB 3 drive on a USB 2 port.
+      - Live disk and network traffic drawn along the real device paths.
+      - Portable single exe. No installer, no admin rights, no .NET install needed.
+      - C# and .NET 10, with WebView2 for the interactive views.
+    note: Fourteen releases since August. Every one since 1.1 ships with SHA-256 checksums.
+    links:
+      - label: Source
+        url: https://github.com/mikedopp/BoardScout
+      - label: Download 1.9.0
+        url: https://github.com/mikedopp/BoardScout/releases/latest
+
+# Patch panel: production skills only. Nothing in-progress, no "fundamentals".
+skills:
+  - { name: PowerShell }
+  - { name: Bash }
+  - { name: Python }
+  - { name: PowerCLI }
+  - { name: vSphere }
+  - { name: vCenter }
+  - { name: Windows Server }
+  - { name: IIS }
+  - { name: Unattended installs }
+  - { name: "PSWindows&shy;Update" }
+  - { name: Chocolatey }
+  - { name: Git }
+  - { name: Azure }
+  - { name: AWS }
+  - { name: ARM / Bicep }
+  - { name: YAML / JSON }
+  - { name: C# / .NET }
+  - { name: WPF }
+  - { name: Scheduled jobs }
+  - { name: Config as code }
+  - { name: Windows containers }
+  - { name: VM provisioning }
+  - { name: Incident response }
+  - { name: Troubleshooting }

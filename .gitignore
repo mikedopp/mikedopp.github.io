@@ -1,0 +1,28 @@
+# project
+_site
+.sass-cache
+.vagrant
+
+# general
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+Gemfile.lock
+gemfiles/
+
+beautiful-jekyll-theme-*.gem
+
+# local tools
+**/bin/
+**/obj/
+.vs/
+
+# design tooling scratch (the surface brief and design record are tracked)
+.impeccable/review/
+.impeccable/questions/
+.impeccable/mocks/
+.impeccable/build/
+.impeccable/live/
+.impeccable/config.local.json
+.jekyll-cache

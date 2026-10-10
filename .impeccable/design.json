@@ -1,0 +1,719 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-10T05:48:54.277Z",
+  "title": "Design System: mikedopp.github.io",
+  "extensions": {
+    "colorMeta": {
+      "sheet": {
+        "role": "neutral",
+        "displayName": "Drafting Sheet",
+        "canonical": "#E4E8EA",
+        "tonalRamp": [
+          "oklch(15.0% 0.005 228.8)",
+          "oklch(26.4% 0.005 228.8)",
+          "oklch(37.9% 0.005 228.8)",
+          "oklch(49.3% 0.005 228.8)",
+          "oklch(60.7% 0.005 228.8)",
+          "oklch(72.1% 0.005 228.8)",
+          "oklch(83.6% 0.005 228.8)",
+          "oklch(95.0% 0.005 228.8)"
+        ]
+      },
+      "sheet-ink": {
+        "role": "neutral",
+        "displayName": "Sheet Ink",
+        "canonical": "#262B30",
+        "tonalRamp": [
+          "oklch(15.0% 0.012 248.2)",
+          "oklch(26.4% 0.012 248.2)",
+          "oklch(37.9% 0.012 248.2)",
+          "oklch(49.3% 0.012 248.2)",
+          "oklch(60.7% 0.012 248.2)",
+          "oklch(72.1% 0.012 248.2)",
+          "oklch(83.6% 0.012 248.2)",
+          "oklch(95.0% 0.012 248.2)"
+        ]
+      },
+      "sheet-ink-2": {
+        "role": "neutral",
+        "displayName": "Sheet Ink Secondary",
+        "canonical": "#4A535B",
+        "tonalRamp": [
+          "oklch(15.0% 0.018 245.0)",
+          "oklch(26.4% 0.018 245.0)",
+          "oklch(37.9% 0.018 245.0)",
+          "oklch(49.3% 0.018 245.0)",
+          "oklch(60.7% 0.018 245.0)",
+          "oklch(72.1% 0.018 245.0)",
+          "oklch(83.6% 0.018 245.0)",
+          "oklch(95.0% 0.018 245.0)"
+        ]
+      },
+      "sheet-line": {
+        "role": "neutral",
+        "displayName": "Sheet Rule",
+        "canonical": "#9DA6AE",
+        "tonalRamp": [
+          "oklch(15.0% 0.015 244.8)",
+          "oklch(26.4% 0.015 244.8)",
+          "oklch(37.9% 0.015 244.8)",
+          "oklch(49.3% 0.015 244.8)",
+          "oklch(60.7% 0.015 244.8)",
+          "oklch(72.1% 0.015 244.8)",
+          "oklch(83.6% 0.015 244.8)",
+          "oklch(95.0% 0.015 244.8)"
+        ]
+      },
+      "steel-950": {
+        "role": "neutral",
+        "displayName": "Bay Steel",
+        "canonical": "#121417",
+        "tonalRamp": [
+          "#121417",
+          "#1A1D21",
+          "#2A2F34",
+          "#3A4148",
+          "#69727A",
+          "#AEB6BC",
+          "#DEE2E5",
+          "#EEF1F3"
+        ]
+      },
+      "steel-900": {
+        "role": "neutral",
+        "displayName": "Rack Frame Steel",
+        "canonical": "#1A1D21",
+        "tonalRamp": [
+          "#121417",
+          "#1A1D21",
+          "#2A2F34",
+          "#3A4148",
+          "#69727A",
+          "#AEB6BC",
+          "#DEE2E5",
+          "#EEF1F3"
+        ]
+      },
+      "steel-850": {
+        "role": "neutral",
+        "displayName": "Rail Steel",
+        "canonical": "#202428",
+        "tonalRamp": [
+          "#121417",
+          "#1A1D21",
+          "#2A2F34",
+          "#3A4148",
+          "#69727A",
+          "#AEB6BC",
+          "#DEE2E5",
+          "#EEF1F3"
+        ]
+      },
+      "steel-800": {
+        "role": "neutral",
+        "displayName": "Faceplate Steel",
+        "canonical": "#2A2F34",
+        "tonalRamp": [
+          "#121417",
+          "#1A1D21",
+          "#2A2F34",
+          "#3A4148",
+          "#69727A",
+          "#AEB6BC",
+          "#DEE2E5",
+          "#EEF1F3"
+        ]
+      },
+      "steel-700": {
+        "role": "neutral",
+        "displayName": "Rail Edge Steel",
+        "canonical": "#3A4148",
+        "tonalRamp": [
+          "#121417",
+          "#1A1D21",
+          "#2A2F34",
+          "#3A4148",
+          "#69727A",
+          "#AEB6BC",
+          "#DEE2E5",
+          "#EEF1F3"
+        ]
+      },
+      "steel-500": {
+        "role": "neutral",
+        "displayName": "Mid Steel",
+        "canonical": "#69727A",
+        "tonalRamp": [
+          "#121417",
+          "#1A1D21",
+          "#2A2F34",
+          "#3A4148",
+          "#69727A",
+          "#AEB6BC",
+          "#DEE2E5",
+          "#EEF1F3"
+        ]
+      },
+      "steel-400": {
+        "role": "neutral",
+        "displayName": "Hairline Steel",
+        "canonical": "#8A939B",
+        "tonalRamp": [
+          "#121417",
+          "#1A1D21",
+          "#2A2F34",
+          "#3A4148",
+          "#69727A",
+          "#AEB6BC",
+          "#DEE2E5",
+          "#EEF1F3"
+        ]
+      },
+      "steel-300": {
+        "role": "neutral",
+        "displayName": "Light Rule Steel",
+        "canonical": "#AEB6BC",
+        "tonalRamp": [
+          "#121417",
+          "#1A1D21",
+          "#2A2F34",
+          "#3A4148",
+          "#69727A",
+          "#AEB6BC",
+          "#DEE2E5",
+          "#EEF1F3"
+        ]
+      },
+      "steel-200": {
+        "role": "neutral",
+        "displayName": "Table Rule Steel",
+        "canonical": "#C9CFD3",
+        "tonalRamp": [
+          "#121417",
+          "#1A1D21",
+          "#2A2F34",
+          "#3A4148",
+          "#69727A",
+          "#AEB6BC",
+          "#DEE2E5",
+          "#EEF1F3"
+        ]
+      },
+      "steel-100": {
+        "role": "neutral",
+        "displayName": "Code Wash Steel",
+        "canonical": "#DEE2E5",
+        "tonalRamp": [
+          "#121417",
+          "#1A1D21",
+          "#2A2F34",
+          "#3A4148",
+          "#69727A",
+          "#AEB6BC",
+          "#DEE2E5",
+          "#EEF1F3"
+        ]
+      },
+      "steel-50": {
+        "role": "neutral",
+        "displayName": "Sticker Steel",
+        "canonical": "#EEF1F3",
+        "tonalRamp": [
+          "#121417",
+          "#1A1D21",
+          "#2A2F34",
+          "#3A4148",
+          "#69727A",
+          "#AEB6BC",
+          "#DEE2E5",
+          "#EEF1F3"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Rack Black",
+        "canonical": "#121417",
+        "tonalRamp": [
+          "oklch(15.0% 0.007 258.4)",
+          "oklch(26.4% 0.007 258.4)",
+          "oklch(37.9% 0.007 258.4)",
+          "oklch(49.3% 0.007 258.4)",
+          "oklch(60.7% 0.007 258.4)",
+          "oklch(72.1% 0.007 258.4)",
+          "oklch(83.6% 0.007 258.4)",
+          "oklch(95.0% 0.007 258.4)"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Ink Secondary",
+        "canonical": "#39414A",
+        "tonalRamp": [
+          "oklch(15.0% 0.019 251.4)",
+          "oklch(26.4% 0.019 251.4)",
+          "oklch(37.9% 0.019 251.4)",
+          "oklch(49.3% 0.019 251.4)",
+          "oklch(60.7% 0.019 251.4)",
+          "oklch(72.1% 0.019 251.4)",
+          "oklch(83.6% 0.019 251.4)",
+          "oklch(95.0% 0.019 251.4)"
+        ]
+      },
+      "ink-inv": {
+        "role": "neutral",
+        "displayName": "Inverse Ink",
+        "canonical": "#EEF1F3",
+        "tonalRamp": [
+          "oklch(15.0% 0.004 236.5)",
+          "oklch(26.4% 0.004 236.5)",
+          "oklch(37.9% 0.004 236.5)",
+          "oklch(49.3% 0.004 236.5)",
+          "oklch(60.7% 0.004 236.5)",
+          "oklch(72.1% 0.004 236.5)",
+          "oklch(83.6% 0.004 236.5)",
+          "oklch(95.0% 0.004 236.5)"
+        ]
+      },
+      "ink-inv-2": {
+        "role": "neutral",
+        "displayName": "Inverse Ink Secondary",
+        "canonical": "#B8C0C6",
+        "tonalRamp": [
+          "oklch(15.0% 0.012 239.9)",
+          "oklch(26.4% 0.012 239.9)",
+          "oklch(37.9% 0.012 239.9)",
+          "oklch(49.3% 0.012 239.9)",
+          "oklch(60.7% 0.012 239.9)",
+          "oklch(72.1% 0.012 239.9)",
+          "oklch(83.6% 0.012 239.9)",
+          "oklch(95.0% 0.012 239.9)"
+        ]
+      },
+      "tape": {
+        "role": "primary",
+        "displayName": "Label-Maker Yellow",
+        "canonical": "#F2D024",
+        "tonalRamp": [
+          "oklch(15.0% 0.171 96.5)",
+          "oklch(26.4% 0.171 96.5)",
+          "oklch(37.9% 0.171 96.5)",
+          "oklch(49.3% 0.171 96.5)",
+          "oklch(60.7% 0.171 96.5)",
+          "oklch(72.1% 0.171 96.5)",
+          "oklch(83.6% 0.171 96.5)",
+          "oklch(95.0% 0.171 96.5)"
+        ]
+      },
+      "tape-deep": {
+        "role": "primary",
+        "displayName": "Tape Shadow Yellow",
+        "canonical": "#D9B70C",
+        "tonalRamp": [
+          "oklch(15.0% 0.160 95.3)",
+          "oklch(26.4% 0.160 95.3)",
+          "oklch(37.9% 0.160 95.3)",
+          "oklch(49.3% 0.160 95.3)",
+          "oklch(60.7% 0.160 95.3)",
+          "oklch(72.1% 0.160 95.3)",
+          "oklch(83.6% 0.160 95.3)",
+          "oklch(95.0% 0.160 95.3)"
+        ]
+      },
+      "tape-rim": {
+        "role": "primary",
+        "displayName": "Tape Rim Olive",
+        "canonical": "#8F7A06",
+        "tonalRamp": [
+          "oklch(15.0% 0.118 96.8)",
+          "oklch(26.4% 0.118 96.8)",
+          "oklch(37.9% 0.118 96.8)",
+          "oklch(49.3% 0.118 96.8)",
+          "oklch(60.7% 0.118 96.8)",
+          "oklch(72.1% 0.118 96.8)",
+          "oklch(83.6% 0.118 96.8)",
+          "oklch(95.0% 0.118 96.8)"
+        ]
+      },
+      "tape-ink": {
+        "role": "primary",
+        "displayName": "Tape Ink",
+        "canonical": "#121417",
+        "tonalRamp": [
+          "oklch(15.0% 0.007 258.4)",
+          "oklch(26.4% 0.007 258.4)",
+          "oklch(37.9% 0.007 258.4)",
+          "oklch(49.3% 0.007 258.4)",
+          "oklch(60.7% 0.007 258.4)",
+          "oklch(72.1% 0.007 258.4)",
+          "oklch(83.6% 0.007 258.4)",
+          "oklch(95.0% 0.007 258.4)"
+        ]
+      },
+      "led-green": {
+        "role": "secondary",
+        "displayName": "Link LED Green",
+        "canonical": "#33C25A",
+        "tonalRamp": [
+          "oklch(15.0% 0.188 148.0)",
+          "oklch(26.4% 0.188 148.0)",
+          "oklch(37.9% 0.188 148.0)",
+          "oklch(49.3% 0.188 148.0)",
+          "oklch(60.7% 0.188 148.0)",
+          "oklch(72.1% 0.188 148.0)",
+          "oklch(83.6% 0.188 148.0)",
+          "oklch(95.0% 0.188 148.0)"
+        ]
+      },
+      "led-amber": {
+        "role": "secondary",
+        "displayName": "Fault Amber",
+        "canonical": "#FF9F1A",
+        "tonalRamp": [
+          "oklch(15.0% 0.168 66.4)",
+          "oklch(26.4% 0.168 66.4)",
+          "oklch(37.9% 0.168 66.4)",
+          "oklch(49.3% 0.168 66.4)",
+          "oklch(60.7% 0.168 66.4)",
+          "oklch(72.1% 0.168 66.4)",
+          "oklch(83.6% 0.168 66.4)",
+          "oklch(95.0% 0.168 66.4)"
+        ]
+      },
+      "led-off": {
+        "role": "secondary",
+        "displayName": "Dark LED",
+        "canonical": "#474E55",
+        "tonalRamp": [
+          "oklch(15.0% 0.015 248.2)",
+          "oklch(26.4% 0.015 248.2)",
+          "oklch(37.9% 0.015 248.2)",
+          "oklch(49.3% 0.015 248.2)",
+          "oklch(60.7% 0.015 248.2)",
+          "oklch(72.1% 0.015 248.2)",
+          "oklch(83.6% 0.015 248.2)",
+          "oklch(95.0% 0.015 248.2)"
+        ]
+      },
+      "jack-black": {
+        "role": "neutral",
+        "displayName": "Jack Black",
+        "canonical": "#050607",
+        "tonalRamp": [
+          "oklch(15.0% 0.004 245.5)",
+          "oklch(26.4% 0.004 245.5)",
+          "oklch(37.9% 0.004 245.5)",
+          "oklch(49.3% 0.004 245.5)",
+          "oklch(60.7% 0.004 245.5)",
+          "oklch(72.1% 0.004 245.5)",
+          "oklch(83.6% 0.004 245.5)",
+          "oklch(95.0% 0.004 245.5)"
+        ]
+      },
+      "screen-white": {
+        "role": "neutral",
+        "displayName": "Screen White",
+        "canonical": "#F2F5F6",
+        "tonalRamp": [
+          "oklch(15.0% 0.003 219.5)",
+          "oklch(26.4% 0.003 219.5)",
+          "oklch(37.9% 0.003 219.5)",
+          "oklch(49.3% 0.003 219.5)",
+          "oklch(60.7% 0.003 219.5)",
+          "oklch(72.1% 0.003 219.5)",
+          "oklch(83.6% 0.003 219.5)",
+          "oklch(95.0% 0.003 219.5)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "#F8FAFA",
+        "tonalRamp": [
+          "oklch(15.0% 0.002 197.1)",
+          "oklch(26.4% 0.002 197.1)",
+          "oklch(37.9% 0.002 197.1)",
+          "oklch(49.3% 0.002 197.1)",
+          "oklch(60.7% 0.002 197.1)",
+          "oklch(72.1% 0.002 197.1)",
+          "oklch(83.6% 0.002 197.1)",
+          "oklch(95.0% 0.002 197.1)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display Nameplate",
+        "purpose": "Hero model name only. Uppercase, wide Archivo."
+      },
+      "headline": {
+        "displayName": "Headline Nameplate",
+        "purpose": "Page and post titles, the 404 code."
+      },
+      "title": {
+        "displayName": "Unit Nameplate",
+        "purpose": "Server unit names and the About heading."
+      },
+      "title-sm": {
+        "displayName": "Small Nameplate",
+        "purpose": "PDU heading."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "The one-sentence hero pitch, max 34ch."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Pitches, KVM text and document prose; tabular numerals."
+      },
+      "label": {
+        "displayName": "Tape Label",
+        "purpose": "Label-maker tape and related condensed caps (buttons, ports, patch labels)."
+      },
+      "data": {
+        "displayName": "Machine Data",
+        "purpose": "U numbers, asset IDs, LED codes, dates, ratings. Never sentences."
+      }
+    },
+    "shadows": [
+      {
+        "name": "rack-on-sheet",
+        "value": "0 2px 0 #121417, 0 18px 40px -16px rgba(18,20,23,0.55)",
+        "purpose": "The rack standing on the drawing sheet."
+      },
+      {
+        "name": "bevel-silver",
+        "value": "inset 0 1px 0 #F5F7F8, inset 0 -2px 0 rgba(0,0,0,0.12)",
+        "purpose": "Silver faceplate edges."
+      },
+      {
+        "name": "bevel-graphite",
+        "value": "inset 0 1px 0 rgba(255,255,255,0.07), inset 0 -2px 0 rgba(0,0,0,0.3)",
+        "purpose": "Graphite faceplate edges."
+      },
+      {
+        "name": "bevel-black",
+        "value": "inset 0 1px 0 rgba(255,255,255,0.05)",
+        "purpose": "Black faceplate top edge."
+      },
+      {
+        "name": "tape",
+        "value": "0 1px 1px rgba(0,0,0,0.3), 0 3px 8px -2px rgba(0,0,0,0.25)",
+        "purpose": "Label tape stuck on metal."
+      },
+      {
+        "name": "sticker",
+        "value": "0 1px 1px rgba(0,0,0,0.5), 0 4px 10px -6px rgba(0,0,0,0.6)",
+        "purpose": "Spec stickers in the service tray."
+      },
+      {
+        "name": "button",
+        "value": "0 2px 5px -1px rgba(18,20,23,0.35)",
+        "purpose": "Front-panel button at rest."
+      },
+      {
+        "name": "button-hover",
+        "value": "0 6px 12px -4px rgba(18,20,23,0.4)",
+        "purpose": "Button hover, with a 1px lift."
+      },
+      {
+        "name": "button-active",
+        "value": "0 1px 2px rgba(18,20,23,0.3)",
+        "purpose": "Button pressed 1px down."
+      },
+      {
+        "name": "faceplate-pulled",
+        "value": "0 14px 22px -12px rgba(0,0,0,0.7)",
+        "purpose": "Server faceplate while its service view is open."
+      },
+      {
+        "name": "recess",
+        "value": "inset 0 2px 6px rgba(0,0,0,0.6)",
+        "purpose": "PDU outlet strip and other recessed wells."
+      },
+      {
+        "name": "led-glow-green",
+        "value": "0 0 0 1px rgba(0,0,0,0.3), 0 0 7px 1px rgba(51,194,90,0.55)",
+        "purpose": "Lit green LED."
+      },
+      {
+        "name": "led-glow-amber",
+        "value": "0 0 0 1px rgba(0,0,0,0.3), 0 0 7px 1px rgba(255,159,26,0.55)",
+        "purpose": "Lit amber LED."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Hover and press transitions (140-200ms)."
+      },
+      {
+        "name": "ease-rail",
+        "value": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "purpose": "Rail slide of the service tray and faceplate lift (420-520ms)."
+      },
+      {
+        "name": "tray-open",
+        "value": "grid-template-rows 520ms ease-rail; transform 520ms ease-rail; opacity 380ms ease-out",
+        "purpose": "Service view open and close; snaps under reduced motion."
+      },
+      {
+        "name": "led-blink",
+        "value": "2.4s steps(1, end) infinite",
+        "purpose": "Amber not-yet-proven LED; steady under reduced motion."
+      },
+      {
+        "name": "led-act",
+        "value": "1.7s linear infinite",
+        "purpose": "Activity LED flicker; steady under reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "rack-narrow",
+        "value": "1080px"
+      },
+      {
+        "name": "mobile",
+        "value": "760px"
+      },
+      {
+        "name": "tiny",
+        "value": "380px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Front-Panel Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one primary action per surface (Email); yellow with a green LED.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#\"><span class=\"ds-led\" aria-hidden=\"true\"></span>Email Mike</a>",
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;gap:10px;min-height:50px;padding:0 22px;border:1px solid #8F7A06;border-radius:6px;background:var(--tape,#F2D024);color:var(--tape-ink,#121417);font-family:Archivo,'Arial Narrow',system-ui,sans-serif;font-size:.9375rem;font-stretch:90%;font-weight:750;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;box-shadow:0 2px 5px -1px rgba(18,20,23,.35);transition:transform 140ms cubic-bezier(.16,1,.3,1),box-shadow 140ms cubic-bezier(.16,1,.3,1),background-color 140ms cubic-bezier(.16,1,.3,1)}.ds-btn-primary:hover{background:#F7DA3C;transform:translateY(-1px);box-shadow:0 6px 12px -4px rgba(18,20,23,.4)}.ds-btn-primary:active{transform:translateY(1px);box-shadow:0 1px 2px rgba(18,20,23,.3)}.ds-btn-primary:focus-visible{outline:3px solid #121417;outline-offset:3px}.ds-led{width:9px;height:9px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#C9F7D4 0 18%,#33C25A 55%);box-shadow:0 0 0 1px rgba(0,0,0,.3),0 0 7px 1px rgba(51,194,90,.55)}@media (prefers-reduced-motion:reduce){.ds-btn-primary{transition:none}}"
+    },
+    {
+      "name": "Steel Front-Panel Button",
+      "kind": "button",
+      "refersTo": "button-steel",
+      "description": "Secondary actions (LinkedIn, GitHub).",
+      "html": "<a class=\"ds-btn-steel\" href=\"#\">LinkedIn</a>",
+      "css": ".ds-btn-steel{display:inline-flex;align-items:center;min-height:50px;padding:0 22px;border:1px solid #0C0E10;border-radius:6px;background:var(--steel-800,#2A2F34);color:var(--ink-inv,#EEF1F3);font-family:Archivo,'Arial Narrow',system-ui,sans-serif;font-size:.9375rem;font-stretch:90%;font-weight:750;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;box-shadow:0 2px 5px -1px rgba(18,20,23,.35);transition:transform 140ms cubic-bezier(.16,1,.3,1),box-shadow 140ms cubic-bezier(.16,1,.3,1),background-color 140ms cubic-bezier(.16,1,.3,1)}.ds-btn-steel:hover{background:var(--steel-700,#3A4148);transform:translateY(-1px);box-shadow:0 6px 12px -4px rgba(18,20,23,.4)}.ds-btn-steel:active{transform:translateY(1px);box-shadow:0 1px 2px rgba(18,20,23,.3)}.ds-btn-steel:focus-visible{outline:3px solid #F2D024;outline-offset:3px}"
+    },
+    {
+      "name": "Label Tape",
+      "kind": "chip",
+      "refersTo": "tape",
+      "description": "Label-maker tape for section labels and status; solid for released, outline for not yet proven.",
+      "html": "<div class=\"ds-plate\"><span class=\"ds-tape\"><span class=\"ds-led ds-led-g\"></span>v1.9.0 · Released</span><span class=\"ds-tape ds-tape-outline\"><span class=\"ds-led ds-led-a\"></span>v0.9.0 · Prerelease · Offline-proven</span></div>",
+      "css": ".ds-plate{display:flex;flex-wrap:wrap;gap:12px;padding:18px;background:#1E2125;color:#EEF1F3}.ds-tape{display:inline-flex;align-items:center;gap:.55em;padding:.5em .75em .45em;border-radius:2px;background:linear-gradient(180deg,rgba(255,255,255,.28),rgba(255,255,255,0) 45%),var(--tape,#F2D024);color:var(--tape-ink,#121417);font-family:Archivo,'Arial Narrow',system-ui,sans-serif;font-size:.75rem;font-stretch:75%;font-weight:750;line-height:1.1;letter-spacing:.07em;text-transform:uppercase;box-shadow:0 1px 1px rgba(0,0,0,.3),0 3px 8px -2px rgba(0,0,0,.25)}.ds-tape-outline{background:transparent;color:#EEF1F3;box-shadow:inset 0 0 0 1.5px var(--tape,#F2D024)}.ds-led{width:9px;height:9px;border-radius:50%}.ds-led-g{background:radial-gradient(circle at 35% 35%,#C9F7D4 0 18%,#33C25A 55%);box-shadow:0 0 0 1px rgba(0,0,0,.3),0 0 7px 1px rgba(51,194,90,.55)}.ds-led-a{background:radial-gradient(circle at 35% 35%,#FFE2B8 0 18%,#FF9F1A 55%);box-shadow:0 0 0 1px rgba(0,0,0,.3),0 0 7px 1px rgba(255,159,26,.55);animation:ds-blink 2.4s steps(1,end) infinite}@keyframes ds-blink{0%,62%{opacity:1}63%,100%{opacity:.25}}@media (prefers-reduced-motion:reduce){.ds-led-a{animation:none}}"
+    },
+    {
+      "name": "Top-of-Rack Switch Nav",
+      "kind": "nav",
+      "refersTo": "port",
+      "description": "1U switch; each nav link is an RJ45 port whose link LED lights on hover or when active.",
+      "html": "<nav class=\"ds-switch\" aria-label=\"Primary\"><span class=\"ds-sw-name\">Mike Dopp</span><a class=\"ds-port is-active\" href=\"#\"><span class=\"ds-jack\"><span class=\"ds-pled\"></span></span>Work</a><a class=\"ds-port\" href=\"#\"><span class=\"ds-jack\"><span class=\"ds-pled\"></span></span>Skills</a><a class=\"ds-port\" href=\"#\"><span class=\"ds-jack\"><span class=\"ds-pled\"></span></span>Contact</a></nav>",
+      "css": ".ds-switch{display:flex;align-items:center;gap:6px;min-height:48px;padding:0 24px;background:linear-gradient(180deg,#1E2125,#17191C);color:#EEF1F3;font-family:Archivo,'Arial Narrow',system-ui,sans-serif}.ds-sw-name{margin-right:auto;font-size:.875rem;font-stretch:125%;font-weight:800;letter-spacing:.04em;text-transform:uppercase}.ds-port{display:flex;align-items:center;gap:8px;min-height:40px;padding:0 10px 0 6px;border-radius:3px;color:#EEF1F3;font-size:.75rem;font-stretch:80%;font-weight:700;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;transition:background-color 160ms cubic-bezier(.16,1,.3,1)}.ds-port:hover{background:rgba(255,255,255,.07)}.ds-port:focus-visible{outline:3px solid #F2D024;outline-offset:3px}.ds-jack{position:relative;width:22px;height:18px;border-radius:2px;background:#07080A;box-shadow:inset 0 0 0 2px #3A4148}.ds-pled{position:absolute;top:3px;right:3px;width:4px;height:4px;border-radius:1px;background:#474E55;transition:background-color 200ms,box-shadow 200ms}.ds-port:hover .ds-pled,.ds-port.is-active .ds-pled{background:#33C25A;box-shadow:0 0 5px 1px rgba(51,194,90,.6)}"
+    },
+    {
+      "name": "Pull Handle",
+      "kind": "button",
+      "refersTo": "handle",
+      "description": "Opens a server unit's service view; the chevron flips when expanded.",
+      "html": "<div class=\"ds-fp\"><button class=\"ds-handle\" type=\"button\" aria-expanded=\"false\"><span class=\"ds-grip\"></span>Service view<svg viewBox=\"0 0 16 16\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m4 6 4 4 4-4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></button></div>",
+      "css": ".ds-fp{padding:18px;background:linear-gradient(180deg,#1E2125,#17191C);color:#EEF1F3}.ds-handle{display:inline-flex;align-items:center;gap:10px;min-height:44px;padding:0 14px 0 10px;border:0;border-radius:10px;background:transparent;color:#EEF1F3;font-family:Archivo,'Arial Narrow',system-ui,sans-serif;font-size:.8125rem;font-stretch:85%;font-weight:750;letter-spacing:.07em;text-transform:uppercase;cursor:pointer;box-shadow:inset 0 0 0 2px #8A939B;transition:box-shadow 160ms cubic-bezier(.16,1,.3,1),background-color 160ms cubic-bezier(.16,1,.3,1)}.ds-handle:hover{background:rgba(127,136,144,.14);box-shadow:inset 0 0 0 2px #EEF1F3}.ds-handle:focus-visible{outline:3px solid #F2D024;outline-offset:3px}.ds-handle svg{transition:transform 420ms cubic-bezier(.22,1,.36,1)}.ds-handle[aria-expanded=\"true\"] svg{transform:rotate(180deg)}.ds-grip{width:4px;height:22px;border-radius:2px;background:repeating-linear-gradient(180deg,currentColor 0 2px,transparent 2px 4px);opacity:.6}"
+    },
+    {
+      "name": "Silver 1U Link Unit",
+      "kind": "card",
+      "refersTo": "button-steel",
+      "description": "A 1U link unit on the silver finish with corner screws; the container pattern used instead of cards.",
+      "html": "<a class=\"ds-unit\" href=\"#\"><span class=\"ds-u-name\">GitHub repositories</span><span class=\"ds-u-desc\">Everything public.</span></a>",
+      "css": ".ds-unit{position:relative;display:flex;align-items:center;gap:18px;min-height:47px;padding:8px 40px;border-top:1px solid #07080A;background:repeating-linear-gradient(90deg,rgba(255,255,255,.07) 0 1px,transparent 1px 3px),linear-gradient(180deg,#E3E7EA 0%,#CDD3D7 55%,#C3CACF 100%);box-shadow:inset 0 1px 0 #F5F7F8,inset 0 -2px 0 rgba(0,0,0,.12);color:#121417;font-family:Archivo,'Arial Narrow',system-ui,sans-serif;text-decoration:none}.ds-unit::before{content:'';position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle,#A3ACB3 0 3px,#5F676E 3.6px 4.6px,transparent 5.2px) 5px 50%/14px 14px no-repeat,radial-gradient(circle,#A3ACB3 0 3px,#5F676E 3.6px 4.6px,transparent 5.2px) calc(100% - 5px) 50%/14px 14px no-repeat}.ds-u-name{font-size:.9375rem;font-stretch:115%;font-weight:750;letter-spacing:.03em;text-transform:uppercase}.ds-u-desc{color:#39414A;font-size:.9375rem}.ds-unit:hover .ds-u-name{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:.25em}.ds-unit:focus-visible{outline:3px solid #121417;outline-offset:3px}"
+    },
+    {
+      "name": "Spec Sticker",
+      "kind": "card",
+      "refersTo": "spec-sticker",
+      "description": "A stuck-on spec line inside the dark service tray.",
+      "html": "<div class=\"ds-tray\"><p class=\"ds-sticker\">Plans with SHA-256 before anything is written.</p></div>",
+      "css": ".ds-tray{padding:22px;background:#121417}.ds-sticker{margin:0;padding:10px 12px;border-radius:3px;background:linear-gradient(180deg,#EEF1F3,#DCE1E4);color:#121417;font-family:Archivo,'Arial Narrow',system-ui,sans-serif;font-size:.9375rem;line-height:1.42;box-shadow:0 1px 1px rgba(0,0,0,.5),0 4px 10px -6px rgba(0,0,0,.6)}"
+    },
+    {
+      "name": "Patch Panel Port",
+      "kind": "custom",
+      "refersTo": "tape",
+      "description": "A skill as a labelled port: patched (yellow boot, green LED). The panel shows production skills only.",
+      "html": "<div class=\"ds-pp-row\"><span class=\"ds-pp\"><span class=\"ds-pp-l\">PowerShell</span><span class=\"ds-pp-j ds-patched\"><span class=\"ds-pp-led\"></span></span></span><span class=\"ds-pp\"><span class=\"ds-pp-l\">vSphere</span><span class=\"ds-pp-j ds-patched\"><span class=\"ds-pp-led\"></span></span></span></div>",
+      "css": ".ds-pp-row{display:flex;gap:10px;padding:18px;background:#1E2125;color:#EEF1F3;font-family:Archivo,'Arial Narrow',system-ui,sans-serif}.ds-pp{display:flex;flex-direction:column;align-items:center;gap:6px;width:96px}.ds-pp-l{width:100%;padding:6px 4px;border-radius:2px;background:#F2D024;color:#121417;font-size:.75rem;font-stretch:70%;font-weight:750;letter-spacing:.02em;text-align:center;text-transform:uppercase}.ds-pp-j{position:relative;width:34px;height:28px;border-radius:3px;background:#050607;box-shadow:inset 0 0 0 2px #343A40}.ds-patched::after{content:'';position:absolute;inset:3px 4px 2px;border-radius:3px 3px 5px 5px;background:linear-gradient(180deg,#F7DB45,#D9B70C);box-shadow:0 2px 3px rgba(0,0,0,.55)}.ds-pp-led{position:absolute;z-index:1;top:-1px;right:-1px;width:6px;height:6px;border-radius:50%;background:#33C25A;box-shadow:0 0 0 1px #050607,0 0 5px 1px rgba(51,194,90,.55)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Rack Elevation",
+    "overview": "The site is a technical drawing of one server rack seen from the front. A cool light-gray drafting sheet, framed by a hairline border and a heavy outer rule, carries a dimension line across the top and a title block at the bottom right. On the sheet stands a single graphite rack with cage-nut rails and U numbers; every piece of content is a unit bolted into it. Navigation is a 1U top-of-rack switch whose ports are the links, the introduction is a 4U appliance with a silver faceplate, projects are 3U servers that slide out on rails into a service view, skills are a patch panel, the about text sits on a KVM console drawer, contact is a PDU, and empty space is a blanking panel.\n\nThe world is dense, physical and literal. Everything is rendered as an object with an edge, a screw, a seam or a label, and nothing floats free of the rack. The palette is restricted to the inks such a rack actually has: steel in many tones, label-maker yellow tape, and LED states. Type does its work through Archivo's width axis: wide uppercase nameplates for model names and condensed caps for tape labels, with Martian Mono reserved for machine data.\n\nState is shown as a mark with words beside it, never as colour alone. A released unit carries solid tape and a steady green LED; an unproven one carries hairline-outline tape and a blinking amber LED, and its text says what has not been proven.",
+    "keyCharacteristics": [
+      "One rack, stacked units with no gaps between them; vertical rhythm in 48px rack units.",
+      "Restricted inks: sheet gray, steel, tape yellow, LED green and amber.",
+      "Archivo's width axis carries hierarchy (wide nameplates, condensed labels).",
+      "Martian Mono only for data: U numbers, asset IDs, LED codes, dates, ratings.",
+      "Physical depth: inset bevels on faceplates, small cast shadows on objects that sit proud (tape, stickers, buttons, tags).",
+      "One signature motion: a server unit slides out on its rails; LEDs blink. Both stop under reduced motion."
+    ],
+    "rules": [
+      {
+        "name": "The Restricted Inks Rule",
+        "body": "Steel, tape yellow and the two LED colours are the whole palette. No blue links, no brand gradients, no second accent.",
+        "section": "colors"
+      },
+      {
+        "name": "The State Is a Mark Rule",
+        "body": "An LED or tape style never carries state alone. The state is always written next to it (\"v0.9.0 · Prerelease · Offline-proven\", \"Accepting interviews\"), and an unproven state uses outline tape plus amber, a released one solid tape plus green.",
+        "section": "colors"
+      },
+      {
+        "name": "The Yellow Is a Label Rule",
+        "body": "Yellow appears only where a real rack would have tape or a coloured part (labels, cable boots, the live outlet, the one primary button). It is never a background wash or a decorative stripe.",
+        "section": "colors"
+      },
+      {
+        "name": "The Width Axis Rule",
+        "body": "Hierarchy comes from width before size: wide (125) for things that are named, condensed (70–90) for things that are labelled. Never set a nameplate condensed or a tape label wide.",
+        "section": "typography"
+      },
+      {
+        "name": "The Mono Is Data Rule",
+        "body": "Martian Mono is for identifiers, numbers and codes that a machine would print. Sentences are never set in mono.",
+        "section": "typography"
+      },
+      {
+        "name": "The U Rule",
+        "body": "Vertical rhythm is the 48px rack unit. Content is added as another unit in the stack, not as a free-floating card with margins around it.",
+        "section": "layout"
+      },
+      {
+        "name": "The Proud Object Rule",
+        "body": "A cast shadow means the thing is physically on top of the faceplate (tape, sticker, tag, button, plug) or has been pulled out. Faceplates themselves only get bevels.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do add new content as a rack unit with a finish class (silver, graphite or black), stacked edge to edge with the 1px seam.",
+      "Do label sections with tape on a cable manager, and write every status in words next to its LED or tape style.",
+      "Do use outline tape plus amber for anything not yet proven, and solid tape plus green only for released, proven work.",
+      "Do set names in wide Archivo caps (wdth 125, 800) and labels in condensed Archivo caps (wdth 70–90, 650–750).",
+      "Do keep Martian Mono to identifiers, numbers and codes.",
+      "Do keep motion to the rail slide and LED behaviour, and make both steady under reduced motion.",
+      "Do use the Rack Black focus ring on light surfaces and the tape-yellow ring on dark steel."
+    ],
+    "donts": [
+      "Don't introduce a hue outside steel, tape yellow and the two LED colours.",
+      "Don't let an LED colour or tape style be the only carrier of a state.",
+      "Don't float content in rounded cards with gaps between them; the rack is continuous.",
+      "Don't put cast shadows on faceplates at rest; shadows belong to objects sitting on them or a pulled unit.",
+      "Don't use yellow as a background fill for a whole unit or as decoration.",
+      "Don't set sentences in Martian Mono or nameplates in condensed widths.",
+      "Don't round corners beyond 6px, except the 10px pull handle and circular LEDs."
+    ]
+  }
+}

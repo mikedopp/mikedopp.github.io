@@ -1,0 +1,31 @@
+<section class="unit u-pdu finish-graphite" id="contact" aria-labelledby="contact-h">
+  <div class="pdu-head">
+    <h2 class="model model-sm" id="contact-h">Plug him into your team</h2>
+    <p class="pdu-sub">Email is fastest. LinkedIn works. Carrier pigeon is untested.</p>
+  </div>
+  <ul class="outlets">
+    <li>
+      <a class="outlet is-live" href="mailto:{{ site.email }}">
+        <span class="socket" aria-hidden="true"><span class="plug"></span></span>
+        <span class="outlet-text">
+          <span class="outlet-label">Email <span class="led led-green" aria-hidden="true"></span></span>
+          <span class="outlet-detail">{{ site.email | replace: "@", "<wbr>@" }}</span>
+        </span>
+      </a>
+    </li>
+    {%- assign outlets = "LinkedIn|linkedin|in/mikedopp,GitHub|github|@mikedopp,YouTube|youtube|@mikedopp,Instagram|instagram|@mikedopp,Linktree|linktree|Everything else" | split: "," -%}
+    {%- for o in outlets -%}
+      {%- assign bits = o | split: "|" -%}
+    <li>
+      <a class="outlet" href="{{ site.profiles[bits[1]] }}" rel="me">
+        <span class="socket" aria-hidden="true"></span>
+        <span class="outlet-text">
+          <span class="outlet-label">{{ bits[0] }}</span>
+          <span class="outlet-detail">{{ bits[2] }}</span>
+        </span>
+      </a>
+    </li>
+    {%- endfor -%}
+  </ul>
+  <p class="pdu-rating" aria-hidden="true">PDU-6 · 6 outlets · 16 A · Do not daisy-chain</p>
+</section>

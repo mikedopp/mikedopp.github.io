@@ -1,0 +1,53 @@
+# Site settings. GitHub Pages builds this from master at the repo root.
+
+title: Mike Dopp
+tagline: Automation specialist, infrastructure automation
+description: >-
+  Mike Dopp, automation specialist in infrastructure automation, Utah. PowerShell, vSphere,
+  Windows Server, Azure and AWS, plus tooling that keeps receipts.
+url: "https://mikedopp.github.io"
+baseurl: ""
+author: Mike Dopp
+location: Utah
+
+# Contact and profiles (the PDU at the bottom of the rack reads these)
+email: mikedopp@mikedopp.com
+profiles:
+  linkedin: "https://www.linkedin.com/in/mikedopp"
+  github: "https://github.com/mikedopp"
+  youtube: "https://www.youtube.com/@mikedopp"
+  instagram: "https://www.instagram.com/mikedopp"
+  linktree: "https://linktr.ee/mikedopp"
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: /:year-:month-:day-:title/
+timezone: America/Denver
+
+defaults:
+  - scope: { path: "", type: "posts" }
+    values: { layout: post }
+  - scope: { path: "" }
+    values: { layout: page }
+
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - PRODUCT.md
+  - DESIGN.md
+  - tools/
+  - Start-SiteEditor.ps1
+  - Start-SiteEditor.cmd
+  - assets/img/TransparentMEdownload.png
+  - "assets/img/**/*.json"
+  - "assets/img/*.json"
+  - vendor/

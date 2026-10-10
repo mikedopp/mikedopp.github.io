@@ -1,0 +1,20 @@
+<header class="unit u-switch finish-black" data-units="1">
+  <a class="switch-brand" href="{{ '/' | relative_url }}" aria-label="Mike Dopp, home">
+    <span class="switch-name">Mike Dopp</span>
+    <span class="switch-model" aria-hidden="true">TOR-4 · 1U</span>
+  </a>
+  <nav class="switch-nav" aria-label="Primary">
+    <ul class="ports">
+      {%- assign ports = "Work|work,Skills|skills,About|about,Contact|contact" | split: "," -%}
+      {%- for p in ports -%}
+        {%- assign bits = p | split: "|" -%}
+        <li>
+          <a class="port" href="{% if bits[1] == 'contact' %}#contact{% else %}{{ '/' | relative_url }}#{{ bits[1] }}{% endif %}" data-port="{{ bits[1] }}">
+            <span class="port-jack" aria-hidden="true"><span class="port-led"></span></span>
+            <span class="port-label">{{ bits[0] }}</span>
+          </a>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </nav>
+</header>
