@@ -286,6 +286,9 @@ A 1U black switch: wide brand name plus mono model code on the left, four RJ45 p
 ### Server unit with service view
 A 3U faceplate (silver or black finish) carrying the unit name as a title nameplate, a status tape with its LED, a pitch, a source link and a pull handle (2px steel-400 inset ring, grip lines, chevron). Opening the handle lifts the faceplate 2px and slides a tray out beneath it: a jack-black floor with telescoping rails drawn on both sides, screenshots in bezels, spec stickers and links. The tray opens with a grid-row transition (520ms) plus a 24px slide and fade, on the rail easing curve cubic-bezier(0.22, 1, 0.36, 1); reduced motion snaps it open or shut. Without JavaScript the service view is open.
 
+### Automation array
+A graphite storage-array unit whose drive bays are the things that get automated. Each bay is a sled: a steel latch strip on the left, a tape label with the domain name, one plain-language claim with a number where there is one, and a flickering green activity LED in the corner (staggered per bay). The head row carries the mono model code and "N of N bays online". Four bays across on desktop, two at 1080px and below, one on phones.
+
 ### Patch panel
 Yellow port labels over drawn jacks with two-digit mono numbers. Every port is patched: a yellow cable boot and a green link LED. The panel lists production skills only; nothing in-progress or "fundamentals" is shown.
 

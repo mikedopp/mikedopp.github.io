@@ -884,6 +884,107 @@ ol {
 }
 
 /* ------------------------------------------------------------------ */
+/* Automation array: one hot-swap bay per thing that gets automated    */
+/* ------------------------------------------------------------------ */
+
+.u-array {
+  padding-top: 18px;
+  padding-bottom: 20px;
+}
+
+.array-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 20px;
+  margin-bottom: 14px;
+}
+
+.array-model {
+  color: var(--fp-ink-2);
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.array-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  color: var(--fp-ink);
+  font-size: 0.8125rem;
+  font-stretch: 85%;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.sleds {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  padding: 8px;
+  border-radius: 4px;
+  background: #0C0E10;
+  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+/* A drive sled: latch on the left, label and claim, activity LED top right */
+.sled {
+  position: relative;
+  display: grid;
+  grid-template-columns: 14px minmax(0, 1fr);
+  gap: 12px;
+  min-height: 100%;
+  padding: 14px 16px 16px 10px;
+  border-radius: 3px;
+  background:
+    repeating-linear-gradient(180deg, rgba(255, 255, 255, 0.035) 0 1px, transparent 1px 4px) 0 0 / 100% 10px no-repeat,
+    linear-gradient(180deg, #2E3439 0%, #23282D 100%);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.07), inset 0 0 0 1px #0A0B0D;
+}
+
+.sled-latch {
+  align-self: stretch;
+  border-radius: 2px;
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0) 60%),
+    var(--steel-500);
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.45);
+}
+
+.sled-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  min-width: 0;
+}
+
+.sled-name {
+  padding: 0.4em 0.6em 0.35em;
+  font-size: 0.75rem;
+}
+
+.sled-text {
+  padding-right: 6px;
+  color: var(--ink-inv);
+  font-size: 0.9375rem;
+  line-height: 1.45;
+  text-wrap: pretty;
+}
+
+.sled-led {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 7px;
+  height: 7px;
+}
+
+/* ------------------------------------------------------------------ */
 /* Server units with a slide-out service view                          */
 /* ------------------------------------------------------------------ */
 
@@ -1810,6 +1911,10 @@ ol {
   .tray {
     grid-template-columns: minmax(0, 1fr);
   }
+
+  .sleds {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 760px) {
@@ -1943,6 +2048,12 @@ ol {
 
   .tray-shots {
     grid-template-columns: minmax(0, 1fr);
+  }
+
+  .sleds {
+    grid-template-columns: minmax(0, 1fr);
+    padding: 6px;
+    gap: 6px;
   }
 
   .u1-link {

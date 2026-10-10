@@ -1,10 +1,10 @@
 # Site settings. GitHub Pages builds this from master at the repo root.
 
 title: Mike Dopp
-tagline: Automation specialist, infrastructure automation
+tagline: DevOps, SRE and AI automation
 description: >-
-  Mike Dopp, automation specialist in infrastructure automation, Utah. PowerShell, vSphere,
-  Windows Server, Azure and AWS, plus tooling that keeps receipts.
+  Mike Dopp, DevOps and SRE engineer in Utah. Release pipelines, certificate and failover
+  automation, and AI automation with guardrails.
 url: "https://mikedopp.github.io"
 baseurl: ""
 author: Mike Dopp

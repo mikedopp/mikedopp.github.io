@@ -71,29 +71,49 @@ units:
       - label: Download 1.9.0
         url: https://github.com/mikedopp/BoardScout/releases/latest
 
+# Automation array: one bay per thing that gets automated. Each line is a claim
+# from the owner's own resume or public repos. No employer or internal tool names.
+bays:
+  - name: Deployments
+    text: Azure DevOps Classic and YAML pipelines, including multi-region release pipelines into AWS.
+  - name: Releases
+    text: Octopus Deploy workflows from dev to test to prod, built to stop drift between them.
+  - name: Certificates
+    text: Pulled from the vault, bound to IIS, SSRS and RabbitMQ, verified, and alerted before expiry. 20+ servers, zero calendar reminders.
+  - name: Failover
+    text: A pipeline-gated, two-datacenter database failover, cut from 35+ minutes to under 10.
+  - name: Hardware
+    text: Server builds driven from config files cut setup time 50%. BoardScout maps what's under the lid.
+  - name: Software
+    text: 4,000+ reusable PowerShell functions for releases, load balancers, diagnostics and config checks.
+  - name: AI agents
+    text: AI-written code works from templates and has to pass parser, security, lint, test, build and smoke checks to ship.
+  - name: Local AI
+    text: RAG search over 28,914 chunks on a local model, from 21.8 s to 30–50 ms per query. The data never leaves the box.
+
 # Patch panel: production skills only. Nothing in-progress, no "fundamentals".
 skills:
-  - { name: PowerShell }
-  - { name: Bash }
+  - { name: PowerShell 7 }
   - { name: Python }
-  - { name: PowerCLI }
-  - { name: vSphere }
-  - { name: vCenter }
-  - { name: Windows Server }
-  - { name: IIS }
-  - { name: Unattended installs }
-  - { name: "PSWindows&shy;Update" }
-  - { name: Chocolatey }
-  - { name: Git }
+  - { name: C# / .NET }
+  - { name: Bash }
+  - { name: Azure DevOps }
+  - { name: YAML pipelines }
+  - { name: Octopus Deploy }
+  - { name: TeamCity }
+  - { name: Git / GitHub }
+  - { name: ARM / Bicep }
+  - { name: Docker }
+  - { name: AKS }
   - { name: Azure }
   - { name: AWS }
-  - { name: ARM / Bicep }
-  - { name: YAML / JSON }
-  - { name: C# / .NET }
-  - { name: WPF }
-  - { name: Scheduled jobs }
-  - { name: Config as code }
-  - { name: Windows containers }
-  - { name: VM provisioning }
-  - { name: Incident response }
-  - { name: Troubleshooting }
+  - { name: Key Vault }
+  - { name: PKI / TLS }
+  - { name: SQL Server HA }
+  - { name: Load balancers }
+  - { name: Azure Monitor }
+  - { name: Datadog }
+  - { name: vSphere / PowerCLI }
+  - { name: Windows Server / IIS }
+  - { name: Ollama / local LLMs }
+  - { name: RAG / embeddings }

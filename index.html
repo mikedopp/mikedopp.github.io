@@ -3,21 +3,21 @@ layout: base
 title: Mike Dopp
 body_class: home
 description: >-
-  Mike Dopp, automation specialist in infrastructure automation, Utah. 15+ years across Windows,
-  VMware, on-prem, Azure and AWS. Public work: Multi_Install_ISO and BoardScout.
+  Mike Dopp, DevOps and SRE engineer in Utah. Release pipelines, certificate and failover
+  automation, and AI automation with guardrails. 20+ years in infrastructure, 10+ in DevOps.
 ---
 
 <section class="unit u-appliance finish-silver" aria-labelledby="hero-name">
   <div class="appliance-main">
     <h1 class="model model-xl" id="hero-name">Mike Dopp</h1>
-    <p class="tape tape-lg tape-split"><span>Automation specialist</span><span class="tape-sep" aria-hidden="true">·</span><span>Infrastructure automation</span></p>
-    <p class="lede">I turn the infrastructure work people click through every Patch Tuesday into code that plans, logs and keeps receipts.</p>
+    <p class="tape tape-lg tape-split"><span>DevOps &amp; SRE engineer</span><span class="tape-sep" aria-hidden="true">·</span><span>Release pipelines</span><span class="tape-sep" aria-hidden="true">·</span><span>AI automation</span></p>
+    <p class="lede">I automate everything that ships or breaks: deployments, releases, certificates, failovers, hardware and software. If a human has to remember the steps, I'm not done yet.</p>
     <ul class="spec-strip" aria-label="At a glance">
-      <li>15+ years</li>
-      <li>PowerShell daily</li>
-      <li>VMware vSphere</li>
-      <li>Windows Server</li>
+      <li>20+ yrs infra</li>
+      <li>10+ yrs DevOps</li>
+      <li>Azure DevOps</li>
       <li>Azure · AWS</li>
+      <li>PowerShell 7</li>
     </ul>
     <div class="front-panel">
       <a class="btn btn-primary" href="mailto:{{ site.email }}"><span class="led led-green" aria-hidden="true"></span>Email Mike</a>
@@ -31,7 +31,7 @@ description: >-
       <p class="tag-head">Property of</p>
       <p class="tag-owner">TBD. Could be you.</p>
       <img class="tag-photo" src="{{ '/assets/img/mike-dopp.webp' | relative_url }}" alt="Mike Dopp" width="180" height="180">
-      <p class="tag-id">Asset MD-0015<br>Loc: {{ site.location }}</p>
+      <p class="tag-id">Asset MD-0020<br>Loc: {{ site.location }}</p>
       {% include barcode.svg %}
       <figcaption class="tag-foot">Do not remove</figcaption>
     </figure>
@@ -43,13 +43,37 @@ description: >-
   </div>
 
   <div class="appliance-vent" aria-hidden="true">
-    <span class="vent-plate">MD-1 · 15+ yr duty cycle</span>
+    <span class="vent-plate">MD-1 · 20+ yr duty cycle</span>
   </div>
 </section>
 
 <section class="rack-group" id="work" aria-labelledby="work-h">
   <div class="unit u-cm finish-black">
-    <h2 class="tape" id="work-h">Mounted: public work</h2>
+    <h2 class="tape" id="work-h">Automated: everything that ships or breaks</h2>
+    <span class="brush" aria-hidden="true"></span>
+  </div>
+
+  <div class="unit u-array finish-graphite">
+    <div class="array-head">
+      <p class="array-model" aria-hidden="true">AA-{{ site.data.rack.bays.size }} · Automation array</p>
+      <p class="array-status"><span class="led led-green" aria-hidden="true"></span>{{ site.data.rack.bays.size }} of {{ site.data.rack.bays.size }} bays online</p>
+    </div>
+    <ul class="sleds">
+      {%- for bay in site.data.rack.bays %}
+      <li class="sled">
+        <span class="sled-latch" aria-hidden="true"></span>
+        <div class="sled-body">
+          <h3 class="tape sled-name">{{ bay.name }}</h3>
+          <p class="sled-text">{{ bay.text }}</p>
+        </div>
+        <span class="led led-act sled-led" aria-hidden="true" style="animation-delay: -{{ forloop.index | times: 0.37 }}s"></span>
+      </li>
+      {%- endfor %}
+    </ul>
+  </div>
+
+  <div class="unit u-cm finish-black">
+    <h3 class="tape">Mounted: public repos</h3>
     <span class="brush" aria-hidden="true"></span>
   </div>
 
@@ -57,7 +81,7 @@ description: >-
   <article class="unit u-server finish-{{ unit.finish }} state-{{ unit.state }}" id="{{ unit.id }}" aria-labelledby="{{ unit.id }}-name" data-service-unit>
     <div class="faceplate">
       <div class="fp-id">
-        <h3 class="model model-md" id="{{ unit.id }}-name">{{ unit.name | replace: "_", "_<wbr>" }}</h3>
+        <h4 class="model model-md" id="{{ unit.id }}-name">{{ unit.name | replace: "_", "_<wbr>" }}</h4>
         <p class="tape tape-state{% if unit.state != 'released' %} tape-outline{% endif %}">
           <span class="led led-{% if unit.state == 'released' %}green{% else %}amber{% endif %}" aria-hidden="true"></span>
           v{{ unit.version }} · {{ unit.status }}
@@ -89,7 +113,7 @@ description: >-
             {%- endfor %}
           </div>
           <div class="tray-specs">
-            <h4 class="tray-h">What it does</h4>
+            <h5 class="tray-h">What it does</h5>
             <ul class="specs">
               {%- for s in unit.specs %}
               <li>{{ s }}</li>
@@ -150,12 +174,13 @@ description: >-
   <div class="kvm-screen">
     <h2 class="model model-md" id="about-h">About</h2>
     <div class="kvm-body">
-      <p>Fifteen-plus years across hardware, Windows Server, VMware, on-prem, Azure and AWS. I write PowerShell every day, Bash and Python when the job calls for them, and C#/.NET when a script deserves a real window.</p>
-      <p>Most of my work is provisioning, patching, VM lifecycle and config-as-code: the jobs that eat a team's week when nobody automates them.</p>
+      <p>Twenty-plus years in enterprise infrastructure, more than ten of them in DevOps and automation. I build the pipelines that ship code and the automation underneath that keeps it running: releases, certificates, failovers and server builds. PowerShell 7 is the daily driver; Python and C#/.NET when the job calls for them.</p>
+      <p>SRE habits come standard: gated steps, state-aware checks, logs that explain themselves, alerts that fire before users notice, and incident work that crosses app, network and data layers.</p>
+      <p>And AI, with guardrails. Agents work from templates and pass the same checks as everyone else's code; local models keep sensitive data on the machine.</p>
       <ul class="kvm-facts">
         <li><strong>Four peer-nominated awards in three months</strong> for automation work. Apparently people like not clicking things.</li>
+        <li><strong>Led a DevOps team</strong> through an on-prem to AWS move that cut infrastructure costs 30%.</li>
         <li><strong>VMUG Salt Lake City</strong> regular, plus volunteer IT support for local community services.</li>
-        <li><strong>Built for hybrid:</strong> VMware vSphere on the ground, Azure and AWS above it, PowerShell holding it together.</li>
       </ul>
       <p><a href="{{ '/aboutme' | relative_url }}">Full spec sheet</a></p>
     </div>
