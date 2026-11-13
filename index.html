@@ -1,0 +1,155 @@
+---
+layout: base
+title: Mike Dopp
+body_class: home
+description: >-
+  Mike Dopp, DevOps and SRE engineer in Utah. Release pipelines, certificate and failover
+  automation, and AI automation with guardrails. 20+ years in infrastructure, 10+ in DevOps.
+---
+
+<section class="unit u-appliance finish-silver" aria-labelledby="hero-name">
+  <div class="appliance-main">
+    <h1 class="model model-xl" id="hero-name">Mike Dopp</h1>
+    <p class="role">DevOps &amp; SRE engineer<span class="role-sep" aria-hidden="true"> · </span><br class="role-break">Release pipelines<span aria-hidden="true"> · </span>AI automation</p>
+    <p class="lede">I build the release pipelines and reliability automation that keep production moving: deployments, certificates, failovers and server builds.</p>
+    <ul class="spec-strip" aria-label="At a glance">
+      <li>20+ yrs infrastructure</li>
+      <li>10+ yrs DevOps</li>
+      <li>Azure · AWS</li>
+      <li>PowerShell 7</li>
+    </ul>
+    <div class="front-panel">
+      <a class="btn btn-primary" href="mailto:{{ site.email }}">Email Mike</a>
+      <a class="btn" href="{{ site.profiles.linkedin }}" rel="me">LinkedIn</a>
+      <a class="btn" href="{{ site.profiles.github }}" rel="me">GitHub</a>
+    </div>
+  </div>
+
+  <div class="appliance-side">
+    <img class="portrait" src="{{ '/assets/img/mike-dopp.webp' | relative_url }}" alt="Mike Dopp" width="180" height="180">
+    <p class="locale">Based in {{ site.location }}</p>
+  </div>
+
+  <div class="appliance-vent" aria-hidden="true"></div>
+</section>
+
+<section class="rack-group" id="work" aria-labelledby="work-h">
+  <div class="unit u-cm finish-black">
+    <h2 class="tape" id="work-h">Public projects</h2>
+    <span class="brush" aria-hidden="true"></span>
+  </div>
+
+  {%- for unit in site.data.rack.units %}
+  <article class="unit u-server finish-{{ unit.finish }} state-{{ unit.state }}" id="{{ unit.id }}" aria-labelledby="{{ unit.id }}-name" data-service-unit{% if forloop.first %} data-open{% endif %}>
+    <div class="faceplate">
+      <div class="fp-id">
+        <h3 class="model model-md" id="{{ unit.id }}-name">{{ unit.name | replace: "_", "_<wbr>" }}</h3>
+        <p class="tape tape-state{% if unit.state != 'released' %} tape-outline{% endif %}">
+          <span class="led led-{% if unit.state == 'released' %}green{% else %}amber{% endif %}" aria-hidden="true"></span>
+          v{{ unit.version }} · {{ unit.status }}
+        </p>
+      </div>
+      <p class="fp-pitch">{{ unit.pitch }}</p>
+      <div class="fp-actions">
+        <a class="fp-link" href="{{ unit.links[0].url }}">{{ unit.links[0].label }}<svg class="i-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M6 4h6v6"/></svg></a>
+        <button class="handle" type="button" aria-expanded="true" aria-controls="{{ unit.id }}-service">
+          <span class="handle-grip" aria-hidden="true"></span>
+          Details
+          <svg class="i-chev" viewBox="0 0 16 16" aria-hidden="true"><path d="m4 6 4 4 4-4"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="service" id="{{ unit.id }}-service">
+      <div class="service-inner">
+        <div class="tray">
+          <div class="tray-shots">
+            {%- for shot in unit.shots %}
+            <figure class="screen{% if forloop.first %} screen-lead{% endif %}">
+              <a class="screen-link" href="{{ shot.src | relative_url }}" target="_blank" rel="noopener">
+                <img src="{{ shot.src | relative_url }}" alt="{{ shot.alt }}" width="{{ shot.w }}" height="{{ shot.h }}" decoding="async" fetchpriority="low">
+                <span class="visually-hidden"> (opens full size)</span>
+              </a>
+              <figcaption>{{ shot.caption }}</figcaption>
+            </figure>
+            {%- endfor %}
+          </div>
+          <div class="tray-specs">
+            <h4 class="tray-h">What it does</h4>
+            <ul class="specs">
+              {%- for s in unit.specs %}
+              <li>{{ s }}</li>
+              {%- endfor %}
+            </ul>
+            <p class="tray-note">{{ unit.note }}</p>
+            <ul class="tray-links">
+              {%- for l in unit.links %}
+              <li><a href="{{ l.url }}">{{ l.label }}<svg class="i-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M6 4h6v6"/></svg></a></li>
+              {%- endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+  {%- endfor %}
+
+  {%- if site.data.projects and site.data.projects.size > 0 %}
+  <ul class="u1-list">
+    {%- for project in site.data.projects %}
+    <li class="unit u-1u finish-black">
+      <a class="u1-link" href="{{ project.url }}">
+        <span class="u1-name">{{ project.title }}</span>
+        <span class="u1-desc">{{ project.description }}</span>
+        <svg class="i-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M6 4h6v6"/></svg>
+      </a>
+    </li>
+    {%- endfor %}
+  </ul>
+  {%- endif %}
+</section>
+
+<section class="unit u-patch finish-black" id="skills" aria-labelledby="skills-h">
+  <h2 class="tape" id="skills-h">Skills</h2>
+  <dl class="skill-rows">
+    {%- for s in site.data.rack.skills %}
+    <div class="skill-row">
+      <dt><span class="pp-jack" aria-hidden="true"><span class="pp-led"></span></span>{{ s.group }}</dt>
+      <dd>{{ s.items }}</dd>
+    </div>
+    {%- endfor %}
+  </dl>
+</section>
+
+<section class="unit u-kvm finish-graphite" id="about" aria-labelledby="about-h">
+  <div class="kvm-screen">
+    <h2 class="model model-md" id="about-h">About</h2>
+    <div class="kvm-body">
+      <p>I have spent more than twenty years in enterprise infrastructure, and more than ten of them in DevOps and automation. I build the pipelines that ship code and the automation underneath that keeps it running. PowerShell 7 is my daily driver, with Python and C#/.NET when the job calls for them.</p>
+      <p>My reliability work follows the same habits everywhere: gated steps, state-aware checks, logs that explain themselves, alerts that fire before users notice, and incident work that crosses application, network and data layers.</p>
+      <p>I use AI with guardrails. Agents work from templates and pass the same checks as any other code, and local models keep sensitive data on the machine.</p>
+      <p>I'm active in VMUG Salt Lake City and volunteer IT support for local community services.</p>
+      <p><a href="{{ '/aboutme' | relative_url }}">Full background</a></p>
+    </div>
+  </div>
+</section>
+
+{%- if site.posts.size > 0 %}
+<section class="rack-group" id="changelog" aria-labelledby="log-h">
+  <div class="unit u-cm finish-black">
+    <h2 class="tape" id="log-h">Writing</h2>
+    <span class="brush" aria-hidden="true"></span>
+  </div>
+  <ul class="u1-list">
+    {%- for post in site.posts limit: 6 %}
+    <li class="unit u-1u {% cycle 'finish-silver', 'finish-graphite' %}">
+      <a class="u1-link" href="{{ post.url | relative_url }}">
+        <time class="u1-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+        <span class="u1-name">{{ post.title }}</span>
+        <svg class="i-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M6 4h6v6"/></svg>
+      </a>
+    </li>
+    {%- endfor %}
+  </ul>
+</section>
+{%- endif %}

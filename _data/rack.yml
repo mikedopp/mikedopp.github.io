@@ -1,0 +1,91 @@
+# Home page content. Every line is a claim from the owner's own public repos.
+# No employer names, internal tool names or current-estate product names.
+
+# Mounted units, top to bottom.
+# state: released (green LED, solid tape) or prerelease (amber LED, outlined tape).
+# Only public repositories belong here. The first unit opens by default.
+units:
+  - id: boardscout
+    name: BoardScout
+    finish: silver
+    state: released
+    version: "2.8.1"
+    status: Released · November 2026 · MIT
+    pitch: >-
+      Maps a PC's motherboard, bandwidth, drivers, storage and OS in one portable app,
+      and flags hardware running below spec. Read-only: it never installs drivers.
+    shots:
+      - src: /assets/img/work/bs-overview.webp
+        w: 1440
+        h: 780
+        alt: "BoardScout's interactive board map of an ASRock B550M motherboard showing CPU, memory, PCIe slots, M.2 drives and SATA ports."
+        caption: The board map, with live status for each part.
+      - src: /assets/img/work/bs-connections.webp
+        w: 1440
+        h: 780
+        alt: "BoardScout's Connections view: every USB, SATA and network device, the link speed it negotiated, and warnings for links running below spec."
+        caption: Connections, with links running below what the device supports flagged.
+    specs:
+      - Flags links running slow, like a PCIe 4.0 SSD on 3.0 lanes or a USB 3 drive on a USB 2 port.
+      - Live disk and network traffic drawn along the real device paths.
+      - Portable Windows exe and Linux builds for x64 and ARM, with no installer.
+      - C# and .NET 10, with WebView2 for the interactive views on Windows.
+    note: 17 public releases since August 2026, each with SHA-256 checksums since 1.1.
+    links:
+      - label: Source
+        url: https://github.com/mikedopp/BoardScout
+      - label: Latest release
+        url: https://github.com/mikedopp/BoardScout/releases/latest
+
+  - id: multi-install-iso
+    name: Multi_Install_ISO
+    finish: graphite
+    state: prerelease
+    version: "0.9.1"
+    status: Prerelease · Validated offline
+    pitch: >-
+      Builds vSphere and Hyper-V servers directly from install ISOs, without templates or
+      golden images. Every build follows a hashed plan, a gated apply and a receipt for each step.
+    shots:
+      - src: /assets/img/work/mii-plan.webp
+        w: 1386
+        h: 894
+        alt: "Multi Install ISO's Plan page: four Windows Server VMs validated with zero blocking issues and the plan's SHA-256 hash."
+        caption: The plan. Four servers, zero blocking issues, and one SHA-256 that every later step has to quote.
+      - src: /assets/img/work/mii-overview.webp
+        w: 1386
+        h: 894
+        alt: "Multi Install ISO's Overview page listing what is planned, what is built, and what has not been proven yet."
+        caption: The overview, which lists what is planned, what is built and what is still unproven.
+    specs:
+      - Reads a YAML, JSON or CSV definition and writes a read-only plan with a SHA-256.
+      - Builds one answer-media ISO per VM (autounattend.xml or ks.cfg), reads it back byte for byte and hashes it.
+      - Applies one VM at a time, only after you quote the plan hash and name the target. A receipt after every step.
+      - PowerShell engine, .NET 10 desktop app, vSphere and Hyper-V targets.
+    note: >-
+      Planning, validation and answer media are proven offline. The vSphere and Hyper-V
+      apply paths have not yet been run against a live host.
+    links:
+      - label: Source
+        url: https://github.com/mikedopp/Multi_Install_ISO
+      - label: Release 0.9.1
+        url: https://github.com/mikedopp/Multi_Install_ISO/releases/tag/v0.9.1
+      - label: What's proven
+        url: https://github.com/mikedopp/Multi_Install_ISO/blob/master/docs/EVALUATION.md
+
+# Skills: production skills only, grouped by area.
+skills:
+  - group: Delivery and release
+    items: Azure DevOps, YAML pipelines, Octopus Deploy, TeamCity, Git, GitHub
+  - group: Reliability and observability
+    items: High availability, failover automation, SQL Server Always On, Azure Monitor, Datadog, Dynatrace, root-cause analysis
+  - group: Cloud and platforms
+    items: Azure, AKS, AWS, Docker, ARM, Bicep
+  - group: Security
+    items: PKI and TLS, certificate lifecycle, Key Vault, service principals, secrets management
+  - group: Automation
+    items: PowerShell 7, Python, C#/.NET, Bash, SQL, REST APIs
+  - group: Applied AI
+    items: RAG, embeddings, vector search, Ollama, AI coding agents with human review
+  - group: Infrastructure
+    items: VMware vSphere, PowerCLI, Windows Server, IIS, load balancers

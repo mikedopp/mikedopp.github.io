@@ -1,0 +1,20 @@
+---
+layout: base
+---
+<article class="unit u-doc finish-silver" aria-labelledby="doc-title">
+  <header class="doc-head">
+    <h1 class="model model-lg" id="doc-title">{{ page.title }}</h1>
+    <p class="tape"><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %-d, %Y" }}</time>{% if page.subtitle %} · {{ page.subtitle }}{% endif %}</p>
+  </header>
+  <div class="doc-body">
+    <div class="doc-sheet prose">
+      {{ content }}
+    </div>
+    {% include doc-side.html %}
+  </div>
+  <nav class="doc-foot" aria-label="Post">
+    {%- if page.previous %}<a href="{{ page.previous.url | relative_url }}">Older: {{ page.previous.title }}</a>{% endif %}
+    <a href="{{ '/' | relative_url }}#changelog">Back to the rack</a>
+    {%- if page.next %}<a href="{{ page.next.url | relative_url }}">Newer: {{ page.next.title }}</a>{% endif %}
+  </nav>
+</article>

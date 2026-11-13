@@ -1,0 +1,25 @@
+mikedopp.github.io
+Copyright (c) 2026 Mike Dopp (mikedopp). All rights reserved.
+
+This website and everything in this repository, including its source code,
+layouts, styles, scripts, design, text, images, screenshots, data, and the
+site editor under tools/ ("the Site"), are proprietary to Mike Dopp.
+
+The Site is published so people can view it in a web browser. Viewing it, or
+being able to see this repository, does not grant any license. No permission
+is granted to copy, reproduce, modify, merge, publish, distribute, sublicense,
+sell, host, scrape for reuse, or create derivative works of the Site or any
+part of it, including its design, without prior written permission from the
+copyright holder.
+
+Third-party components included with the Site remain under their own
+licenses: the Archivo and Martian Mono fonts in assets/fonts/ are licensed
+under the SIL Open Font License 1.1 (see the OFL files there). Names of
+third-party products mentioned on the Site belong to their owners.
+
+THE SITE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SITE OR THE USE OR OTHER DEALINGS IN THE SITE.
