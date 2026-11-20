@@ -37,42 +37,6 @@ units:
       - label: Latest release
         url: https://github.com/mikedopp/BoardScout/releases/latest
 
-  - id: multi-install-iso
-    name: Multi_Install_ISO
-    finish: graphite
-    state: prerelease
-    version: "0.9.1"
-    status: Prerelease · Validated offline
-    pitch: >-
-      Builds vSphere and Hyper-V servers directly from install ISOs, without templates or
-      golden images. Every build follows a hashed plan, a gated apply and a receipt for each step.
-    shots:
-      - src: /assets/img/work/mii-plan.webp
-        w: 1386
-        h: 894
-        alt: "Multi Install ISO's Plan page: four Windows Server VMs validated with zero blocking issues and the plan's SHA-256 hash."
-        caption: The plan. Four servers, zero blocking issues, and one SHA-256 that every later step has to quote.
-      - src: /assets/img/work/mii-overview.webp
-        w: 1386
-        h: 894
-        alt: "Multi Install ISO's Overview page listing what is planned, what is built, and what has not been proven yet."
-        caption: The overview, which lists what is planned, what is built and what is still unproven.
-    specs:
-      - Reads a YAML, JSON or CSV definition and writes a read-only plan with a SHA-256.
-      - Builds one answer-media ISO per VM (autounattend.xml or ks.cfg), reads it back byte for byte and hashes it.
-      - Applies one VM at a time, only after you quote the plan hash and name the target. A receipt after every step.
-      - PowerShell engine, .NET 10 desktop app, vSphere and Hyper-V targets.
-    note: >-
-      Planning, validation and answer media are proven offline. The vSphere and Hyper-V
-      apply paths have not yet been run against a live host.
-    links:
-      - label: Source
-        url: https://github.com/mikedopp/Multi_Install_ISO
-      - label: Release 0.9.1
-        url: https://github.com/mikedopp/Multi_Install_ISO/releases/tag/v0.9.1
-      - label: What's proven
-        url: https://github.com/mikedopp/Multi_Install_ISO/blob/master/docs/EVALUATION.md
-
 # Skills: production skills only, grouped by area.
 skills:
   - group: Delivery and release

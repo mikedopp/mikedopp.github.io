@@ -26,7 +26,6 @@ I automate everything that ships or breaks: deployments, releases, certificates,
 
 ## Proof
 
-- [Multi_Install_ISO](https://github.com/mikedopp/Multi_Install_ISO): servers built straight from install ISOs, with a hashed plan, gated apply and a receipt for every step.
 - [BoardScout](https://github.com/mikedopp/BoardScout): a portable hardware, bandwidth and driver audit app for Windows and Linux, with 17 public releases, checksummed since 1.1.
 - [All public source code on GitHub](https://github.com/mikedopp?tab=repositories&type=source).
 
